@@ -5,23 +5,28 @@ div {
   right: 2px;
   bottom: 2px;
   left: 2px;
-  width: 200px;
+  width: 180px;
   height: 200px;
   border:3px 
-  solid red;
+  solid BLUE;
 }
 
 body {
-    background-color: CYAN;
+    background-color: BROWN;
 } 
 
 input[type=button] {
-    color:BLUE;
+    color:GREY;
     font-size:100%;
     width:30px;
     margin:5px;
 }
 
 input[type=button]:hover {
-    background-color:RED;
+    background-color:CYAN;
+}
+h1{
+position: absolute;
+margin: auto;
+font-size: 64;
 }

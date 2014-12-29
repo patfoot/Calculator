@@ -1,5 +1,5 @@
 
-var val=0,flag=0,val2=0,op;
+var val=0,flag=0,val2=0,op,res_value;
 
 function move_input(num)
 {
@@ -31,16 +31,23 @@ function optr(num)
 function compute_result()
 {
 	if(op===1)
-//		alert(val);
-		document.getElementById("result").value=Number(val)+Number(val2);
+		res_value=Number(val)+Number(val2);
+		//document.getElementById("result").value=Number(val)+Number(val2);
 	if(op===2)
-		document.getElementById("result").value=Number(val)-Number(val2);
+		res_value=Number(val)-Number(val2);
+		//document.getElementById("result").value=Number(val)-Number(val2);
 	if(op===3)
-		document.getElementById("result").value=Number(val)*Number(val2);
+		res_value=Number(val)*Number(val2);
+		//document.getElementById("result").value=Number(val)*Number(val2);
 	if(op===4)
-		document.getElementById("result").value=Number(val)/Number(val2);
-		
-		flag=0;
+		res_value=Number(val)/Number(val2);
+		//document.getElementById("result").value=Number(val)/Number(val2);		
+	document.getElementById("result").value=res_value;
+	val=res_value;
+	val2=0;
+	flag=0;
+	
+
 }
 function clear_input()
 {
