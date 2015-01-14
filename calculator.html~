@@ -19,7 +19,6 @@
 <input type="button" value="2" onclick = "move_input(2)">
 <input type="button" value="3" onclick = "move_input(3)">
 <input type="button" value="4" onclick = "move_input(4)">
-<input type="button" value="4" onclick = "move_input(4)">
 <br>
 <input type="button" value="5" onclick = "move_input(5)">
 <input type="button" value="6" onclick = "move_input(6)">
